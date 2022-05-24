@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: #5e5b4a;
+    color: #dbc399;
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Roboto', sans-serif;
+    margin-bottom: 40px ;
+    
+    /* font: 16px normal 'Roboto', sans-serif;  */
+}
+/* Box model */
+.cont{
+    max-width: 750px ;
+    margin: auto;
+    margin-top: 40px;
+
+
+}
+
+.alino{
+    box-shadow: #0f141e;
+    width: 200px;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.info{
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+
+    }
+
+
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+.info p {
+    color:#f5f2efea;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    /* text-transform: initial; */
+    /* letter-spacing: none; */
+    /* word-spacing: px; */
+
+}
+.links a {
+    color: #e2e7c1;
+    text-decoration: none;   
+}
+
+.links{
+    margin-bottom: 20px;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+a:active{
+    color:#000000
+}
+a:visited{
+    color:#f0bb60
+}
+
+
+/* .links{
+    background-color: red;
+    padding: 15px;
+    border: 5px solid green;
+    margin: 5px;
+    border-top-style: hidden;
+    border-bottom-width:15px ; } */
+
+    .card{
+        padding: 15px 20px;
+        background:red ;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    .bg-2{
+        background-color: 	#2f4f4f;
+
+    }
+    .bg-3{
+        background-color:#599797;
+        
+    }
+    .bg-4{
+        background-color:#15a8a8 ;
+        
+    }
+
+    .card h2 {
+        margin-bottom: 20px;
+    }
+
+    .list{
+        padding: 0px 20px;
+    }
+
+    .list li {
+        margin-bottom: 0px;
+    }
+
+    .table{
+        width: 50%;
+        
+        
+    }
+.contact h2{
+text-align: center;
+}
+.form-contact label{
+    display: block;
+    font-size: 14px;
+    color: #f5f2efea;
+
+}
+
+.form-contact input,
+.form-contact textarea{
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #f5f2efea;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+/* .form-contact ::placeholder{
+    color: red;
+} */
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-contact{
+    width: 50%;
+   
+}
+.row > .form-contact:first-child{
+    margin-right: 20px;
+}
+
+.bot{
+    color: #f5f2efea;
+    background: #15a8a8;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.bot:hover{
+    opacity: 1;
+    color:black ;
+}
+
+.posiz{
+    position: relative;
+    
+
+}
+.svin{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 100%;
+    width: 40px;
+    height: 50px;
+    background-image: url(кабан3.jpg) ;
+
+}
